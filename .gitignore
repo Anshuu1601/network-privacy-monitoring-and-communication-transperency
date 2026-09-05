@@ -22,8 +22,14 @@ reports/daily/*
 reports/weekly/*
 !reports/daily/.gitkeep
 !reports/weekly/.gitkeep
+
 logs/*
 !logs/.gitkeep
+
+backend/logs/*
+!backend/logs/.gitkeep
+
+*.log
 
 # Frontend
 node_modules/
